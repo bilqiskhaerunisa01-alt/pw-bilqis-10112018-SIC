@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #ececec;
+  margin: 0;
+  padding: 20px;
+}
+
+/* FLEX CONTAINER */
+.cv {
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* KOLOM KIRI */
+.sidebar {
+  width: 30%;
+  background: #2c3e50;
+  color: white;
+  padding: 25px;
+}
+
+.sidebar h2 {
+  border-bottom: 1px solid #ffffff55;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+.sidebar ul {
+  padding-left: 18px;
+}
+
+/* KOLOM KANAN */
+.content {
+  width: 70%;
+  padding: 30px;
+}
+
+/* HEADER */
+header h1 {
+  margin-bottom: 5px;
+}
+
+.title {
+  color: gray;
+  margin-top: 0;
+}
+
+/* FOTO */
+.foto {
+  width: 120px;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 15px;
+}
+
+/* SECTION */
+section {
+  margin-top: 25px;
+}
+
+section h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc;
+}
+
+th,
+td {
+  padding: 8px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 700px) {
+  .cv {
+    flex-direction: column;
+  }
+
+  .sidebar,
+  .content {
+    width: 100%;
+  }
+}

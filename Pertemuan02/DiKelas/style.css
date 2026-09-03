@@ -1,0 +1,28 @@
+h1 {
+    font-size: 32px;
+    color: blueviolet;
+}
+p {
+    font-size: 18px;
+    font-family: Arial;
+}
+.tittle {
+    font-size: 20px;
+}
+#nama {
+    color: brown;
+}
+section {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid black;
+}
+.CV {
+    display: flex;
+}
+.Sidebar {
+    width: 30%;
+}
+.content {
+    width: 70%;
+}

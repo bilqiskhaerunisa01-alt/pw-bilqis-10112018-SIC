@@ -1,0 +1,82 @@
+body {
+  font-family: Times New Roman, sans-serif;
+  background-color: hsl(225, 85%, 84%);
+  margin: 0;
+  padding: 30px;
+}
+h3 {
+  text-align: left;
+  background-color: rgb(202, 225, 250);
+}
+
+.Foto {
+  background: white;
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+  font-size: larger;
+}
+
+header {
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 15px;
+}
+
+.foto {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.Judul {
+  color: blue;
+  margin-top: -10px;
+  font-size: medium;
+}
+
+section {
+  margin-top: 10px;
+  
+}
+
+h2 {
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  color: rgb(24, 24, 189);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: rgb(230, 243, 255);
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc;
+}
+
+th,
+td {
+  padding: 8px;
+}
+th {
+
+    text-align: center;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: gray;
+  font-size: 14px;
+}
+
